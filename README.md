@@ -1,17 +1,7 @@
-# Pasos a seguir
+# Floricela Arguedas - Desafio 06
 
-1. Descomprimo
-2. Abrirlo en Visual Studio Code
-3. Abro la consola
-4. Recupero las depedencias (Los paquetes, las librerías)
+* Formulario Web con HTML y CSS - Estilo 1
 
-```sh
-npm i # npm install
-```
-
-5. Levanto el servidor de desarrollo
-
-```sh
-npm run dev
+Link a Netlify:
 ```  
 
