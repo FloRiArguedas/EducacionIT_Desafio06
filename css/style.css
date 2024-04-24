@@ -58,6 +58,10 @@ input:focus{
     color: white;
 }
 
+#legend:focus{
+    background-color: #2B3D37;
+}
+
 #lbl-tel{
     padding-top: 8px;
     padding-bottom: 8px;
@@ -93,12 +97,12 @@ input:focus{
 
 .fieldset-datos{
     border-bottom-style: dotted;
-    border-bottom-color: #A6C1B9 ;
+    border-bottom-color: #A6C1B9;
     border-bottom-width: 15px; 
 }
 
 fieldset{
-    background-color: #A6C1B9;
+    background-color: #D6E2DE;
     text-align: center;
     margin-top: 30px;
     border: 2px solid #4D6D63;
@@ -106,6 +110,11 @@ fieldset{
     margin-bottom: 30px ; 
     padding-bottom: 40px;
 }
+
+fieldset:focus-within{
+    background-color: #A6C1B9;
+}
+
 
 .actividades{
     text-align: left;
@@ -141,4 +150,5 @@ button:focus{
 #1F2023 back
 #4D6D63 verde oscuro
 #A6C1B9 verde claro
-#2B3D37 Verde oscuro categorias */
+#D6E2DE verde + claro
+#2B3D37 Verde + oscuro categorias */
