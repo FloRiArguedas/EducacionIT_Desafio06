@@ -9,9 +9,10 @@
 
 body{
     background-color: #1F2023;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
     font-family: "Roboto" , sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -22,6 +23,7 @@ h1{
     text-align: center;
     color: white;
     font-family: "poppins" , sans-serif;
+    width: 90%;
 }
 
 legend{
@@ -95,10 +97,12 @@ input:focus{
     color: white;
 }
 
-.fieldset-datos{
+.divisor{
     border-bottom-style: dotted;
     border-bottom-color: #A6C1B9;
     border-bottom-width: 15px; 
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 fieldset{
@@ -109,6 +113,7 @@ fieldset{
     border-radius: 5px;  
     margin-bottom: 30px ; 
     padding-bottom: 40px;
+    width: 90%;
 }
 
 fieldset:focus-within{
@@ -118,8 +123,9 @@ fieldset:focus-within{
 
 .actividades{
     text-align: left;
-    padding-bottom: 20px;
-}
+    padding-bottom: 20px; 
+    width: 90%;
+} 
 
 .contenedor-condiciones{
     color: white;
@@ -137,6 +143,7 @@ button{
     text-align: center;
     padding: 10px 10px 10px 10px;
     border-radius: 3px;
+    margin-bottom: 30px;
 }
 
 button:focus{
