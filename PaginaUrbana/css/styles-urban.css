@@ -7,7 +7,7 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   font-weight: 500;
-  background-image: url("public/imgs/gymbackground-01.webp");
+  background-image: url("/imgs/gymbackground-01.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
