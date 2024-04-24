@@ -120,6 +120,10 @@ fieldset:focus-within{
     background-color: #A6C1B9;
 }
 
+fieldset:focus-within > legend{
+    background-color: #2B3D37;
+}
+
 
 .actividades{
     text-align: left;
